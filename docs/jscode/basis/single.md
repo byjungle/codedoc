@@ -221,7 +221,6 @@ document.onclick = function (event) {
 
 ```js
 //  console.log(document.body.scrollTop, document.body.scrollLeft);
-//
 window.onscroll = function () {
     console.log(document.documentElement.scrollTop, document.documentElement.scrollLeft);
 }
