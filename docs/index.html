@@ -13,7 +13,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      name: '代码库',
       repo: '',
       loadSidebar: true,
       loadNavbar: true,
@@ -22,13 +22,17 @@
         paths: 'auto',
         placeholder: '请输入要搜索的关键字',
         noData: '没有结果',
-        depth: 6,
+        depth: 6, //标题层级
       },    
       copyCode: {
-        buttonText : 'Copy to clipboard',
+        buttonText : {
+        '/jscode/':'点击复制',          
+        '/':'Copy to clipboard',          
+        },
         errorText  : 'Error',
         successText: 'Copied'
-      },      
+      },  
+      repo: 'docsifyjs/docsify',  //右上角挂git图标   
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
